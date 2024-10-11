@@ -1,0 +1,36 @@
+required:
+  - postcode
+  - year_terminated
+  - month_terminated
+  - longitude
+  - latitude
+properties:
+  postcode:
+    title: Postcode
+    type: string
+    description: All currently terminated postcodes within the United Kingdom, the Channel Islands and the Isle of Man, received every 3 months from Royal Mail. 2, 3 or 4-character outward code, single space and 3-character inward code.
+    example: "SW1A 2AA"
+  year_terminated:
+    title: Termination year
+    type: number
+    format: int32
+    description: Termination year. 
+    example: 2019
+  month_terminated:
+    title: Termination month
+    type: number
+    format: int32
+    description: Month of termination of a postcode. 1-January, 2-February ... 12-December.
+    example: 1
+  longitude:
+    title: Longitude
+    type: number
+    format: double
+    description: The WGS84 longitude given the Postcode's national grid reference.
+    example: -2.496903
+  latitude:
+    title: Latitude
+    type: number
+    format: double
+    description: The WGS84 latitude given the Postcode's national grid reference.
+    example: 53.53513
