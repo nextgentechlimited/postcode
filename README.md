@@ -2,7 +2,7 @@
   <img src="https://nextgen.ideal-postcodes.co.uk/Postcodes%20Logo@3x.png" alt="PostcodesLookup">
 </h1>
 
-> UK postcode & geolocation API, serving up open data
+> UK postcode & geolocation API, serving up open data across UK
 
 ![CI](https://github.com/ideal-postcodes/postcodes.io/workflows/CI/badge.svg)
 [![DOI](https://zenodo.org/badge/15987081.svg)](https://zenodo.org/badge/latestdoi/15987081)
